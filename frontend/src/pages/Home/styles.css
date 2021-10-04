@@ -1,0 +1,270 @@
+.home-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.home-container:first-of-type {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container:first-of-type nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.home-container:first-of-type nav a {
+    max-width: 150px;
+    background: none;
+    box-shadow: none;
+    color: #55B83E;
+    border-bottom: 1px solid #55B83E;
+    border-radius: 0;
+    margin-right: 20px;
+}
+
+.home-container:first-of-type article:first-of-type {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.home-container:first-of-type article:first-of-type img {
+    width: 50%;
+    height: auto;
+}
+
+.home-container:first-of-type article:first-of-type div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-container:first-of-type article:first-of-type div h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-container:first-of-type article:first-of-type div a.button {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.home-container:first-of-type article:first-of-type div p {
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    text-align: justify;
+}
+
+.home-container:nth-child(2) {
+    background-color: rgba(85, 184, 62, 0.25);
+    padding: 0;
+}
+
+.home-container:nth-child(2) article {
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-container:nth-child(2) article:first-of-type div:nth-child(2),
+.home-container:nth-child(2) article:nth-child(2) div:first-of-type {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.home-container:nth-child(2) article:first-of-type div:nth-child(2) img,
+.home-container:nth-child(2) article:nth-child(2) div:first-of-type img {
+    width: auto;
+    height: 100%;
+}
+
+.home-container:nth-child(2) article:first-of-type div:first-of-type,
+.home-container:nth-child(2) article:nth-child(2) div:nth-child(2) {
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.home-container:nth-child(2) article:first-of-type div:first-of-type h2,
+.home-container:nth-child(2) article:nth-child(2) div:nth-child(2) h2 {
+    width: 500px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+.home-container:nth-child(2) article:first-of-type div:first-of-type p,
+.home-container:nth-child(2) article:nth-child(2) div:nth-child(2) p {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 10px;    
+}
+
+.home-container:nth-child(3) {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container:nth-child(3) h1 {
+    font-size: 26px;
+    margin: 10px auto;
+    text-align: center;
+    text-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+
+.home-container:nth-child(3) article:first-of-type {
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 0 30px;
+    line-height: 28px;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap-reverse;
+    max-width: 70%;
+}
+
+.home-container:nth-child(3) article:first-of-type p {
+    padding: 0 20px;
+}
+
+
+.home-container:nth-child(3) article:first-of-type div{
+    overflow: hidden;
+}
+
+.home-container:nth-child(3) article:first-of-type div img {
+    width: 100%;
+    height: auto;
+}
+
+.home-container:nth-child(3) article:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div span {
+    color: #55B83E;
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div h2 {
+    margin: 10px auto;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div p {
+    line-height: 23px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div p span.quote-icon {
+    font-size: 13px;
+    text-align: left;
+    filter: saturate(0.5);
+    margin: 5px;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div p.quote{
+    background-color: rgba(85, 184, 62, 0.08);
+    font-size: 15px;
+    line-height: 18px;
+    height: auto;
+    border: 1px solid rgba(85, 184, 62, 0.6);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.home-container:nth-child(3) article:nth-child(3) div p.quote strong {
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.home-container:nth-child(4) {
+    background-color: rgba(85, 184, 62, 0.25);
+    display: flex;
+    flex-direction: row;
+}
+
+.home-container:nth-child(4) article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+.home-container:nth-child(4) article h1 {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.home-container:nth-child(4) article p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.home-container:nth-child(4) article img {
+    width: 80%;
+}
+
+.home-container:nth-child(4) form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.home-container:nth-child(4) form .input-group {
+    display: flex;
+}
+
+.home-container:nth-child(4) form input,
+.home-container:nth-child(4) form textarea {
+    margin-top: 8px;
+}
+
+.home-container:nth-child(4) form textarea {
+    resize: none;
+}
+
+.home-container:nth-child(4) form .input-group input + input {
+    margin-left: 8px;
+}

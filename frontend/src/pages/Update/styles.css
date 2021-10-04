@@ -1,0 +1,79 @@
+.update-header {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.update-header nav a {
+    max-width: 60px;
+}
+
+.update-container {  
+    background-position: right;
+    background-size: 40%;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 96px);
+}
+.update-container form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 20px;
+    background: rgba(255,255,255, 0.9);
+    padding: 24px;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.update-container form h1 {
+    font-size: 26px;
+}
+
+.update-container form strong {
+    display: block;
+    margin-top: 20px;
+    color: #41414d; 
+}
+
+.update-container form input,
+.update-container form textarea {
+    margin-top: 8px;
+}
+
+.update-container form p.toggle {
+    margin: 8px 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.update-container form p.toggle label.urgent {
+    margin-left: 40px;
+    font-size: 18px;
+    color: #41414d;
+    margin-top: 10px;
+}
+
+.update-container #cancel-button {
+    background-color: #bfbfbf;
+    width: 90px;
+}
+
+.update-container form .input-group input + input,
+.update-container form .input-group a + button {
+    margin-left: 8px;
+}
+
+.update-container form .input-group {
+    display: flex;
+}
